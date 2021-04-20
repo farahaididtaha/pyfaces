@@ -11,9 +11,11 @@ pip install -r requirements.txt
 ```
 ## How to run
 - Face Detection
+
 ```angular2html
 python detect_image.py --image data/cristiano.jpg --method cnn
 ```
+> `--methods` can be one of `haar`, `dnn`, `hog`, `cnn`
 - Gender Detection
 
 - Emotion Detection
