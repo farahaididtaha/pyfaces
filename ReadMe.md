@@ -26,6 +26,7 @@ python detect_image.py --image data/cristiano.jpg --method cnn
 
 ## TODO
 - Add PreCommit
+- Add Gitignore
 - Add Typing Hint
 - Add Custom Error or Exception Class
 - Add Bounding Classes for Face Detection
