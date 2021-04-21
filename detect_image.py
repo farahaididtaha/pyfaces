@@ -7,6 +7,7 @@ from detectors.face_detector.opencv_dnn.face_detector import FaceDetector as Ope
 from detectors.face_detector.dlib_hog.face_detector import FaceDetector as DlibHogFaceDetector
 from detectors.face_detector.dlib_cnn.face_detector import FaceDetector as DlibCnnFaceDetector
 from detectors.gender_detector.detector import GenderDetector
+from detectors.emotion_detector.detector import EmotionDetector
 
 
 if __name__ == '__main__':
@@ -27,15 +28,18 @@ if __name__ == '__main__':
         pass
     else:
         t1 = time.time()
-        gender_detector = GenderDetector()
         face_detector = face_detector_class()
+        gender_detector = GenderDetector()
+        emotion_detector = EmotionDetector()
         image = cv2.imread(args.image)
         faces, face_confidences = face_detector.detect(image)
         t2 = time.time()
         elapsed = f"{(t2 - t1):.2f}"
-        for face, face_confidence in zip(faces, face_confidences):
-            start_x, start_y, end_x, end_y = face
-            gender, gender_confidence = gender_detector.detect(image[start_y:end_y, start_x:end_x])
+        for face_rect, face_confidence in zip(faces, face_confidences):
+            start_x, start_y, end_x, end_y = face_rect
+            face = image[start_y:end_y, start_x:end_x]
+            gender, gender_confidence = gender_detector.detect(face)
+            emotion_detector.detect(face)
             cv2.rectangle(img=image, pt1=(start_x, start_y), pt2=(end_x, end_y),
                           color=(0, 255, 0), thickness=1)
             cv2.putText(img=image,

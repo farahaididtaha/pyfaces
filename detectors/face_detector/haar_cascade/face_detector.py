@@ -32,8 +32,9 @@ class FaceDetector:
 
     def detect(self, image):
         # (x, y, w, h)
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         faces = self.detector.detectMultiScale(
-            image=image,
+            image=gray,
             scaleFactor=self.scale_factor,
             minNeighbors=self.min_neighbors,
             minSize=self.min_size,
