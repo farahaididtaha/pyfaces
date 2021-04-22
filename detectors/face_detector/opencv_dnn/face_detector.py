@@ -35,13 +35,13 @@ class FaceDetector:
             self.load_caffe_model()
 
     def detect(self, image):
+        h, w = image.shape[:2]
         if self.use_cvlib:
             faces, confidences = cvlib.detect_face(image)
         else:
             # TODO: Make constant image size, and mean value of rgb
             # (104.0, 177.0, 123.0) is the mean value of rgb, this can be use as normalization
 
-            h, w = image.shape[:2]
             blob = cv2.dnn.blobFromImage(
                 image=cv2.resize(image, (300, 300)),
                 scalefactor=1,
@@ -67,4 +67,8 @@ class FaceDetector:
                 faces.append([start_x, start_y, end_x, end_y])
                 confidences.append(confidence)
 
+        faces = [
+            (max(face[0], 0), max(face[1], 0), min(face[2], w), min(face[3], h))
+            for face in faces
+        ]
         return faces, confidences

@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc0423d6-4036-4870-9671-dac4b722a39d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/video.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/emotion_detector/detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/detectors/emotion_detector/detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/face_detector/opencv_dnn/face_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/detectors/face_detector/opencv_dnn/face_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encode_faces.py" beforeDir="false" afterPath="$PROJECT_DIR$/encode_faces.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/normalize_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_faces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/recognizer.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/models/recognizer.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/dlib/face_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognition/dlib/face_recognition.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +35,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="3" />
-          <entry key="py" value="34" />
+          <entry key="py" value="41" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="34" />
+          <entry key="Python" value="41" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -42,16 +50,16 @@
         <counts>
           <entry key="Python Console" value="8" />
           <entry key="dummy" value="32" />
-          <entry key="md" value="1507" />
-          <entry key="py" value="7510" />
+          <entry key="md" value="1530" />
+          <entry key="py" value="9214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="Markdown" value="1504" />
+          <entry key="HTML" value="5" />
+          <entry key="Markdown" value="1525" />
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="7518" />
+          <entry key="Python" value="9222" />
         </counts>
       </usages-collector>
     </session>
@@ -61,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/encode_faces.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="704">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -70,61 +78,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="584">
-                <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="51" />
+              <first_editor relative-caret-position="632">
+                <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="422">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <marker date="1619084945041" expanded="true" signature="2059:2061" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extract_faces.py">
+        <entry file="file://$PROJECT_DIR$/detectors/gender_detector/detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="288">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detect_image.py">
+        <entry file="file://$PROJECT_DIR$/utils/video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+            <state relative-caret-position="144">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,30 +130,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detectors/face_detector/opencv_dnn/face_detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="584">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1618927570074" expanded="true" signature="312:317" ph="..." />
+                <marker date="1619084582380" expanded="true" signature="312:317" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/pyfaces/lib/python3.8/site-packages/cvlib/face_detection.py">
+        <entry file="file://$PROJECT_DIR$/detectors/emotion_detector/detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="657">
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.8/pathlib.py">
+        <entry file="file://$PROJECT_DIR$/recognition/dlib/face_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25032">
-              <caret line="1055" column="67" selection-start-line="1055" selection-start-column="67" selection-end-line="1055" selection-end-column="67" />
+            <state relative-caret-position="408">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1619081184982" expanded="true" signature="59:64" ph="..." />
+                <marker date="1619081184982" expanded="true" signature="83:92" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenvs/pyfaces/lib/python3.8/site-packages/face_recognition/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -165,7 +179,7 @@
         <entry file="file://$PROJECT_DIR$/utils/image.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -189,6 +203,9 @@
       <find>fire</find>
       <find>DRIVER_PATH</find>
       <find>persist_image</find>
+      <find>face_confidences</find>
+      <find>un</find>
+      <find>took</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,19 +230,21 @@
         <option value="$PROJECT_DIR$/detectors/face_detector/base.py" />
         <option value="$PROJECT_DIR$/detectors/face_detector/errors.py" />
         <option value="$PROJECT_DIR$/detectors/face_detector/detect_image.py" />
-        <option value="$PROJECT_DIR$/detectors/face_detector/opencv_dnn/face_detector.py" />
         <option value="$PROJECT_DIR$/detectors/face_detector/dlib_cnn/face_detector.py" />
         <option value="$PROJECT_DIR$/detectors/face_detector/dlib_hog/face_detector.py" />
         <option value="$PROJECT_DIR$/detectors/gender_detector/detector.py" />
         <option value="$PROJECT_DIR$/detectors/face_detector/haar_cascade/face_detector.py" />
-        <option value="$PROJECT_DIR$/detect_image.py" />
-        <option value="$PROJECT_DIR$/detectors/emotion_detector/detector.py" />
         <option value="$PROJECT_DIR$/preprocessing/scraper.py" />
         <option value="$PROJECT_DIR$/gather_images.py" />
         <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/detect_image.py" />
         <option value="$PROJECT_DIR$/encode_faces.py" />
-        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/recognition/dlib/face_recognition.py" />
+        <option value="$PROJECT_DIR$/detectors/emotion_detector/detector.py" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/utils/video.py" />
+        <option value="$PROJECT_DIR$/detectors/face_detector/opencv_dnn/face_detector.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -254,6 +273,40 @@
             <path>
               <item name="pyfaces" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="detectors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="detectors" type="462c0819:PsiDirectoryNode" />
+              <item name="face_detector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="detectors" type="462c0819:PsiDirectoryNode" />
+              <item name="face_detector" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv_dnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="detectors" type="462c0819:PsiDirectoryNode" />
+              <item name="gender_detector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="recognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfaces" type="b2602c69:ProjectViewProjectNode" />
@@ -408,16 +461,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detectors/face_detector/opencv_dnn/face_detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1618927570074" expanded="true" signature="312:317" ph="..." />
           </folding>
         </state>
       </provider>
@@ -426,13 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detectors/gender_detector/detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -446,27 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detect_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/pyfaces/lib/python3.8/site-packages/tensorflow/python/keras/preprocessing/image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="228" column="21" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detectors/emotion_detector/detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -490,38 +511,10 @@
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recognition/dlib/face_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1619077223721" expanded="true" signature="48:53" ph="..." />
-            <marker date="1619077223721" expanded="true" signature="72:81" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/pyfaces/lib/python3.8/site-packages/face_recognition/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -532,10 +525,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/detect_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.8/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25032">
+          <caret line="1055" column="67" selection-start-line="1055" selection-start-column="67" selection-end-line="1055" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/extract_faces.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="344">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -544,10 +554,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/encode_faces.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="704">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/pyfaces/lib/python3.8/site-packages/face_recognition/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recognition/dlib/face_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1619081184982" expanded="true" signature="59:64" ph="..." />
+            <marker date="1619081184982" expanded="true" signature="83:92" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detectors/emotion_detector/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -555,10 +594,59 @@
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="584">
-            <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="51" />
+          <first_editor relative-caret-position="632">
+            <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detectors/face_detector/opencv_dnn/face_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1619084582380" expanded="true" signature="312:317" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detectors/gender_detector/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1619084945041" expanded="true" signature="2059:2061" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -32,6 +32,6 @@ class EmotionDetector:
         predicted_class = np.argmax(self.detector.predict(roi))
         label_map = dict((v, k) for k, v in self.EMOTION.items())
         predicted_label = label_map[predicted_class]
-        print(predicted_label)
+        return predicted_label
 
 

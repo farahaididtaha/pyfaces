@@ -27,11 +27,11 @@ if __name__ == '__main__':
     except KeyError:
         pass
     else:
-        t1 = time.time()
         face_detector = face_detector_class()
         gender_detector = GenderDetector()
         emotion_detector = EmotionDetector()
         image = cv2.imread(args.image)
+        t1 = time.time()
         faces, face_confidences = face_detector.detect(image)
         t2 = time.time()
         elapsed = f"{(t2 - t1):.2f}"

@@ -23,10 +23,9 @@ if __name__ == '__main__':
     for image_path in list_images(args.directory):
         name = image_path.split(os.path.sep)[-2]
         image = cv2.imread(image_path)
-        rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        h, w = rgb.shape[:2]
+        h, w = image.shape[:2]
         face_regions = [(0, 0, w, h)]
-        encodings = face_recognition.face_encodings(rgb, face_regions)
+        encodings = face_recognition.face_encodings(image, face_regions)
         for encoding in encodings:
             names.append(name)
             face_encodings.append(encoding)

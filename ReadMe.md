@@ -50,7 +50,17 @@ python train.py
 ```
 > This will train the model using calculated embeddings
 
+```angular2html
+python main.py --image test/test.jpg
+python main.py --image test/test2.jpg
+```
+> This will train the model using calculated embeddings
 
+```angular2html
+python main.py --video test/video.jpg
+python main.py --image test/test2.jpg
+```
+> This will train the model using calculated embeddings
 
 
 ## TODO
